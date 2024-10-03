@@ -24,8 +24,8 @@ jobs:
       - name: Ensure Windows platform is enabled
         run: flutter config --enable-windows-desktop
 
-      - name: Create Windows platform (if necessary)
-        run: flutter create .
+      #- name: Create Windows platform (if necessary)
+       # run: flutter create .
 
       - name: Build Windows application
         run: |
